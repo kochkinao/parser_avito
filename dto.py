@@ -21,6 +21,8 @@ class AvitoConfig:
     urls: List[str]
     proxy_string: Optional[str] = None
     proxy_change_url: Optional[str] = None
+    vk_token: Optional[str] = None
+    vk_peer_ids: List[str] = field(default_factory=list)
     keys_word_white_list: List[str] = field(default_factory=list)
     keys_word_black_list: List[str] = field(default_factory=list)
     seller_black_list: List[str] = field(default_factory=list)
