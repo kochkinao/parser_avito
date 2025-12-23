@@ -1,8 +1,7 @@
 [avito]
-tg_token = "8466636676:AAHOfpQiokxgmh5-t9LJBcP_nrkSsbJdpoQ"
+tg_token = ""
 tg_chat_id = [
-    "1128870668",
-    "498975827",
+    ""
 ]
 urls = [
     "https://www.avito.ru/izhevsk/tovary_dlya_kompyutera/dzhoystiki_i_ruli-ASgBAgICAUTGB7ZO?cd=1&localPriority=0&q=moza+r5&s=104",
@@ -14,8 +13,8 @@ seller_black_list = []
 max_price = 9999999999
 min_price = 1000
 geo = ""
-proxy_string = "neMYpM:bek5myCmaqza@mproxy.site:16220"
-proxy_change_url = "https://changeip.mobileproxy.space/?proxy_key=d9b1310a9088a8073c28f084bc1a78e8"
+proxy_string = ""
+proxy_change_url = ""
 pause_general = 7
 pause_between_links = 1
 max_age = 600
