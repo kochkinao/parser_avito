@@ -29,6 +29,20 @@ def mask_sensitive_data(config_str: str) -> str:
         masked,
     )
 
+    # VK токен
+    masked = re.sub(
+        r"(vk_token[\"']?\s*[:=]\s*[\"'])([^\"']+)([\"'])",
+        lambda m: f"{m.group(1)}{m.group(2)[:5]}***{m.group(3)}",
+        masked,
+    )
+
+    # VK peer_ids
+    masked = re.sub(
+        r"(vk_peer_ids[\"']?\s*[:=]\s*)(\[?[^\]]*\]?)",
+        lambda m: f"{m.group(1)}['***']",
+        masked,
+    )
+
     # proxy_change_url → скрываем почти полностью, оставляем домен
     masked = re.sub(
         r"(proxy_change_url[\"']?\s*[:=]\s*[\"'])([^\"']+)([\"'])",
