@@ -3,6 +3,10 @@ tg_token = ""
 tg_chat_id = [
     ""
 ]
+vk_token = ""
+vk_peer_ids = [
+    "",
+]
 urls = [
     "https://www.avito.ru/izhevsk/tovary_dlya_kompyutera/dzhoystiki_i_ruli-ASgBAgICAUTGB7ZO?cd=1&localPriority=0&q=moza+r5&s=104",
 ]
