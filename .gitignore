@@ -1,2 +1,12 @@
 # created by virtualenv automatically
 .secret.txt
+logs/
+result/
+__pycache__/
+build/
+dist/
+.venv/
+
+*.toml
+*.db
+*.json
